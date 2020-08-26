@@ -26,7 +26,7 @@ div.user-bar a.user-notifications {
     font-weight: 500;
 }
 
-#aspnetForm, body, html {
+body, html {
     height: 100%;
     min-height: 100%;
     margin-top: 0;
@@ -59,15 +59,16 @@ div.location-bar {
 
 
 .well .nav-link.active {
-    background-color: #5bb8e5;
+    background-color: #48b8e6;
     color: #fff;
-}
+    font-size: 15px;
 
 .org-switch {
     background-color: #fff;
-    border-color: lightgray;
-    color: #030303;
+    border-color: #48b8e6;
+    color: #3b8aab;
     border-width: thin;
+    font-size: 12px;
 }
 
 .org-switch.checked {
@@ -92,13 +93,13 @@ div.location-bar {
 }
 
 .primary-cta {
-    border-radius: 21px;
+    border-radius: 20px;
     border: 1px solid lightgray;
     background-color: #5bb8e5;
     color: #fff;
-    font-size: 19px;
-    padding: 15px;
-    min-width: 300px;
+    font-size: 15px;
+    padding: 10px;
+    min-width: 280px;
 }
 
 .primary-cta:hover {
@@ -116,6 +117,106 @@ btn>span:before, .expand-btn>span:before {
     top: -3px;
 }
 
+div.p-1>h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+.p-2 {
+    padding: .5rem!important;
+    padding-top: 0px !important;
+}
+
+div.eligibilityError>h1 {
+    font-size: 18px !important;
+    margin-left: 5px;
+    color: #333;
+}
+
+.well .nav-link {
+    font-size: 15px;
+    background-color: #124466;
+    color: #fff;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 6px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-bottom: 10px;
+}
+
+.nav-tabs {
+    border-bottom: none;
+}
+
+.well .well-header {
+    background-color: #124466;
+    color: #fff;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+#patient-add-buttons-div button {
+    margin-bottom: 10px;
+}
+
+div#active-medications-table_length {
+    float: left;
+    font-size: 12px;
+}
+
+select.form-control.form-control-sm {
+    font-size: 12px;
+}
+
+div#active-medications-table_filter {
+    float: left;
+    font-size: 12px;
+}
+
+th.sorting_desc {
+    font-size: 14px;
+}
+
+th.sorting {
+    font-size: 14px;
+}
+
+td.dataTables_empty {
+    font-size: 12px;
+}
+
+div#active-medications-table_info {
+    float: left;
+    font-size: 12px;
+}
+
+ul.pagination {
+    font-size: 12px;
+}
+
+div#inactive-medications-table_length {
+    float: left;
+    font-size: 12px;
+}
+
+div#inactive-medications-table_filter {
+    float: left;
+    font-size: 12px;
+}
+
+div#inactive-medications-table_info {
+    font-size: 12px;
+    float: left;
+}
 
 .tertiary-cta {
     border-radius: 21px;
@@ -176,10 +277,6 @@ button.btn.tertiary-cta.close-btn {
     border-radius: 2px !important;
 }
 
-.well .nav-link.active {
-    background-color: #48b8e6;
-    color: #fff;
-}
 
 .nav-tabs .nav-link {
     border: none;
