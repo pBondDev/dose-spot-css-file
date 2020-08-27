@@ -73,7 +73,7 @@ div.location-bar {
     background-color: #fff;
 }
 
-div.form-group > label.label {
+div.form-group > label {
     font-size: 12px;
 }
 
@@ -282,6 +282,7 @@ div#active-medications-table_info {
 
 ul.pagination {
     font-size: 12px;
+    margin-bottom: 10px !important;
 }
 
 div#inactive-medications-table_length {
@@ -476,4 +477,12 @@ div.margin-bottom-3>button.add-submit {
 .margin-top-3 {
     margin-top: 3px;
     display: inline-block !important;
+}
+
+div#search-by-patient-div>div {
+    left: 33%;
+}
+
+div#search-by-patient-div>div>button#search-pharmacies-by-patient {
+    width: 30% !important;
 }
