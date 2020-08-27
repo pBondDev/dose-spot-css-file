@@ -69,11 +69,73 @@ div.location-bar {
     background-color: #fff;
 }
 
+div.form-group > label.label {
+    font-size: 12px;
+}
+
+.custom-select {
+    display: inline-block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem 1.75rem .375rem .75rem;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    vertical-align: middle;
+    background: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3e%3cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e) no-repeat right .75rem center/8px 10px;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+
 
 .well .nav-link.active {
     background-color: #48b8e6;
     color: #fff;
     font-size: 15px;
+}
+
+button.close-btn.btn.expand-btn>span.icon-close:before {
+    color: #ff7a37;
+}
+
+div.row.well-header>h3 {
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 5px;
+}
+
+div#drugallergieslist>h5 {
+    font-size: 13px;
+    color: #333;
+}
+
+.container.bg-white.well.drug-allergy-list-padding {
+    font-size: 12px;
+    color: #333;
+}
+
+label.checkbox-container {
+    font-size: 12px;
 }
 
 .org-switch {
@@ -100,9 +162,10 @@ div.location-bar {
     border-radius: 0;
     border: 1px solid lightgray;
     background-color: #fff;
-    color: #000000;
-    font-size: 15px;
+    color: #333
+    font-size: 14px;
     padding: 5px 15px;
+    margin-bottom: 5px;
 }
 
 .primary-cta {
@@ -258,11 +321,11 @@ button#remove-active-medication-confirm {
 .checkbox-container .checkbox:after {
     content: "\79";
     position: absolute;
-    top: -10px;
-    left: -4px;
+    top: 0px;
+    left: 0px;
     display: inline-block;
     font-family: dosespot;
-    font-size: 2.4rem;
+    font-size: 1.4rem;
     color: #48b8e6;
 }
 
