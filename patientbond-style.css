@@ -32,6 +32,10 @@ div.user-bar a.user-notifications {
     font-size: 15px !important;
 }
 
+div#add-search-name {
+    display: none;
+}
+
 div#patientdetailaddress > p {
     font-size: 13px;
     margin-left: 4px;
@@ -110,7 +114,7 @@ div.form-group > label.label {
 .well .nav-link.active {
     background-color: #48b8e6;
     color: #fff;
-    font-size: 15px;
+    font-size: 12px;
 }
 
 button.close-btn.btn.expand-btn>span.icon-close:before {
@@ -142,7 +146,7 @@ label.checkbox-container {
     border-color: #48b8e6;
     color: #3b8aab;
     border-width: thin;
-    font-size: 12px;
+    font-size: 10px;
 }
 
 .org-switch.checked {
@@ -210,7 +214,7 @@ div.eligibilityError> h1 {
 }
 
 .well .nav-link {
-    font-size: 15px;
+    font-size: 12px;
     background-color: #124466;
     color: #fff;
     padding-left: 15px;
@@ -235,7 +239,7 @@ div.eligibilityError> h1 {
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 10px;
-    padding-bottom: 5px;
+    padding-bottom: 2px;
     -ms-flex-pack: justify;
     justify-content: space-between;
 }
@@ -259,11 +263,11 @@ div#active-medications-table_filter {
 }
 
 th.sorting_desc {
-    font-size: 14px;
+    font-size: 12px;
 }
 
 th.sorting {
-    font-size: 14px;
+    font-size: 12px;
 }
 
 td.dataTables_empty {
