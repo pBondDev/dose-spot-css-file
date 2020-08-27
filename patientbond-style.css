@@ -77,6 +77,20 @@ div.form-group > label {
     font-size: 12px;
 }
 
+.orange-header {
+    color: #48b9e7;
+    padding-right: 15px;
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 2px !important;
+}
+
+div.form-group.med-input-container>label {
+    font-size: 14px;
+    margin-left: 2px !important;
+    color: #333;
+}
+
 .custom-select {
     display: inline-block;
     width: 100%;
