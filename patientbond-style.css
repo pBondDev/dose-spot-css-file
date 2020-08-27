@@ -14,7 +14,7 @@ div.user-bar a.user-welcome {
 div.user-bar a.navbar-set-change-pin-btn {
     text-decoration: none;
     color: #ff7a37;
-    display: none;
+    display: none !important;
 }
 
 div.user-bar a.user-notifications {
@@ -93,13 +93,13 @@ div.location-bar {
 }
 
 .primary-cta {
-    border-radius: 20px;
-    border: 1px solid lightgray;
-    background-color: #5bb8e5;
-    color: #fff;
-    font-size: 15px;
-    padding: 10px;
-    min-width: 280px;
+    border-radius: 20px !important;
+    border: 1px solid lightgray !important;
+    background-color: #5bb8e5 !important;
+    color: #fff !important;
+    font-size: 15px !important;
+    padding: 10px !important;
+    min-width: 280px !important;
 }
 
 .primary-cta:hover {
@@ -118,8 +118,8 @@ btn>span:before, .expand-btn>span:before {
 }
 
 div.p-1>h2 {
-    font-size: 24px;
-    color: #333;
+    font-size: 24px !important;
+    color: #333 !important;
 }
 
 .p-2 {
