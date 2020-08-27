@@ -171,14 +171,15 @@ label.checkbox-container {
     margin-bottom: 5px;
 }
 
+
 .primary-cta {
     border-radius: 20px !important;
     border: 1px solid lightgray !important;
     background-color: #5bb8e5 !important;
     color: #fff !important;
-    font-size: 15px !important;
+    font-size: 12px !important;
     padding: 10px !important;
-    min-width: 280px !important;
+    min-width: 100px !important;
 }
 
 .primary-cta:hover {
@@ -298,14 +299,17 @@ div#inactive-medications-table_info {
     float: left;
 }
 
+
+
 .tertiary-cta {
     border-radius: 21px;
-    border: 1.3px solid #e9e9e9;
+    border: 1px solid lightgrey;
     background-color: #fff;
     color: black;
     font-family: Sintony;
-    font-size: 19px;
-    padding: 1rem .8675rem;
+    font-size: 12px;
+    width: 50%;
+    height: 50px;
 }
 
 .tertiary-cta:hover {
@@ -351,10 +355,13 @@ button.add-submit.btn.primary-cta {
     border-radius: 2px !important;
 }
 
+
 button.btn.tertiary-cta.close-btn {
-    min-width: 200px;
+    min-width: 100px;
     margin-left: 5%;
-    border-radius: 2px !important;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    height: 40px;
 }
 
 
@@ -458,4 +465,10 @@ a.ui-state-default.ui-state-highlight {
     border: 1px solid #337ab7;
     background: #337ab7;
     color: #fff;
+}
+
+div.margin-bottom-3>button.add-submit {
+    margin-left: 0px !important;
+    display: inline-block !important;
+    width: 40% !important;
 }
