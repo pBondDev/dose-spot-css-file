@@ -349,11 +349,6 @@ button.btn.primary-cta.search-pharmacies {
     border-radius: 2px !important;
 }
 
-button.add-submit.btn.primary-cta {
-    min-width: 200px;
-    margin-left: 20%;
-    border-radius: 2px !important;
-}
 
 
 button.btn.tertiary-cta.close-btn {
@@ -471,4 +466,14 @@ div.margin-bottom-3>button.add-submit {
     margin-left: 0px !important;
     display: inline-block !important;
     width: 40% !important;
+}
+
+.margin-bottom-3 {
+    margin-bottom: 3px;
+    display: inline-block;
+}
+
+.margin-top-3 {
+    margin-top: 3px;
+    display: inline-block;
 }
