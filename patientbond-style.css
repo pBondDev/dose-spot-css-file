@@ -106,7 +106,7 @@ div.form-group > label.label {
     border: 1px solid #ced4da;
     border-radius: .25rem;
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-
+}
 
 .well .nav-link.active {
     background-color: #48b8e6;
