@@ -277,7 +277,16 @@ div#active-medications-table_filter {
     font-size: 12px;
 }
 
+div#transmission-errors-table_length {
+    float: left;
+    font-size: 12px;
+}
+
 th.sorting_desc {
+    font-size: 12px;
+}
+
+th.sorting_asc {
     font-size: 12px;
 }
 
@@ -309,7 +318,17 @@ div#inactive-medications-table_filter {
     font-size: 12px;
 }
 
+div#transmission-errors-table_filter {
+    float: left;
+    font-size: 12px;
+}
+
 div#inactive-medications-table_info {
+    font-size: 12px;
+    float: left;
+}
+
+div#transmission-errors-table_info {
     font-size: 12px;
     float: left;
 }
@@ -492,4 +511,34 @@ div#search-by-patient-div>div {
 
 div#search-by-patient-div>div>button#search-pharmacies-by-patient {
     width: 30% !important;
+}
+
+.number-badge {
+    display: inline-block;
+    box-sizing: border-box;
+    background: #fff;
+    border-style: Solid;
+    border-color: lightgrey;
+    border-width: 1px;
+    border-radius: 12px;
+    font-family: Sintony;
+    font-weight: 400;
+    font-size: 20px;
+    color: #48b9e7;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 23px;
+    min-width: 22px;
+    line-height: 1.15;
+	margin-right: 5px;
+}
+
+.bg-warning {
+    background-color: #c6e8f5!important;
+}
+
+table#transmission-errors-table>tbody>tr>td {
+    font-size: 11px;
+    color: #333;
 }
