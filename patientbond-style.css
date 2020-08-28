@@ -524,18 +524,23 @@ div#search-by-patient-div>div>button#search-pharmacies-by-patient {
     font-family: Sintony;
     font-weight: 400;
     font-size: 20px;
-    color: #48b9e7 !important;
+    color: #48b9e7;
     text-align: center;
     padding-left: 10px;
     padding-right: 10px;
     height: 23px;
     min-width: 22px;
     line-height: 1.15;
-    margin-right: 5px;
+	margin-right: 5px;
+}
+
+div.p-1>h3 {
+    font-size: 15px;
+    font-weight: 500;
 }
 
 .bg-warning {
-    background-color: #c6e8f5 !important;
+    background-color: #c6e8f5!important;
 }
 
 table#transmission-errors-table>tbody>tr>td {
