@@ -333,7 +333,17 @@ div#transmission-errors-table_info {
     float: left;
 }
 
+div#active-medications-table_wrapper>div.row>div {
+    padding-left: 0px !important;
+}
 
+div#inactive-medications-table_wrapper>div.row>div {
+    padding-left: 0px !important;
+}
+
+div#transmission-errors-table_wrapper>div.row>div {
+    padding-left: 0px !important;
+}
 
 .tertiary-cta {
     border-radius: 21px;
